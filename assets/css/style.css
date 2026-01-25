@@ -457,3 +457,11 @@ footer p {
         padding-bottom: 30px;
     }
 }
+@media (max-width: 480px) {
+    .project-card img {
+        height: 180px; /* Smaller image height for phones */
+    }
+    .project-card-content {
+        padding: 20px; /* Less padding to save space on small screens */
+    }
+}

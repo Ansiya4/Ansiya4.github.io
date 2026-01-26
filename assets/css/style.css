@@ -185,6 +185,7 @@ nav ul li a:hover::after {
 
 .about-text {
     flex: 1;
+    min-width: 0;
 }
 
 .about-text p {
@@ -442,7 +443,7 @@ footer p {
     }
 
     .projects-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     }
 
     .skills-table {
@@ -458,10 +459,7 @@ footer p {
     }
 }
 @media (max-width: 480px) {
-    .project-card img {
-        height: 180px; /* Smaller image height for phones */
-    }
-    .project-card-content {
-        padding: 20px; /* Less padding to save space on small screens */
-    }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
 }

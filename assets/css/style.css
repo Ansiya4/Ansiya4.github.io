@@ -291,7 +291,7 @@ nav ul li a:hover::after {
     gap: 20px;
     margin-top: 50px;
     background-color: var(--card-bg-color);
-    padding: 20px;
+    padding: 5px;
     border-radius: 5px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.07);
 }
